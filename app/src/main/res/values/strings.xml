@@ -17,4 +17,5 @@
     <string name="_clear">CLR</string>
     <string name="_plus">+</string>
     <string name="_equals">=</string>
+    <string name="_decimal">.</string>
 </resources>

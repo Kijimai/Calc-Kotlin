@@ -158,11 +158,19 @@
             android:layout_height="wrap_content">
 
             <Button
+                android:id="@+id/btnDecimal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:onClick="onDecimal"
+                android:text="@string/_decimal" />
+            <Button
                 android:id="@+id/btnNum0"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:onClick="onDigit"
                 android:text="@string/_0" />
 
